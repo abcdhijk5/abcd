@@ -3,6 +3,8 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
+import matplotlib
+matplotlib.use("TkAgg")
 
 
 def load_images(folder, image_size, max_images=10):
